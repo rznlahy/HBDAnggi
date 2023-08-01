@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Anggi!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cake">
+      <div class="candle"></div>
+    </div>
+    <h1>Happy Birthday Anggi!</h1>
+    <p>Selamat ulang tahun yang ke-<span id="age">19</span>!</p>
+    <p>Barakallahu fi umrik yaa</p>
+    <p>Selamat merayakan hari ulang tahunmu</p>
+    <p>Semoga kamu mendapatkan banyak hal baik di tahun ini.</p>
+    <button id="playBtn" onclick="toggleMusic()">Yuk Rayakan</button>
+    <button id="pauseBtn" onclick="pauseMusic()" style="display: none;">Tombol Anggi Jahat</button>
+    <audio id="birthdaySong" loop>
+      <source src="gigi.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
